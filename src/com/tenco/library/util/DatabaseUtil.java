@@ -37,7 +37,7 @@ public class DatabaseUtil {
         System.out.println(connection.getMetaData().getDatabaseProductName());
         System.out.println(connection.getMetaData().getDatabaseProductVersion());
 
-        return  connection;
+        return connection;
     }
 
     // TODO - 삭제 예정
